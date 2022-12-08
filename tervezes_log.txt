@@ -1,0 +1,15 @@
+[2022.12.08]
+
+(Kuli)
+| - Kulimák ritkasági rendszer tervezése
+|   - Ritkasági szintek megnevezése
+|   - Színek kiválasztása
+|   - Figma tervek módosítása, hogy egyes elemek tartalmazzák a ritkaságot
+
+(Zsofi) - Hiányzik
+
+(Kernel)
+| - Jira managelés
+| - Figma aloldalak struktúrájának javítása (fõoldal, a gomb)
+
+
