@@ -1,15 +1,38 @@
 [2022.12.08]
 
 (Kuli)
-| - Kulim·k ritkas·gi rendszer tervezÈse
-|   - Ritkas·gi szintek megnevezÈse
-|   - SzÌnek kiv·laszt·sa
-|   - Figma tervek mÛdosÌt·sa, hogy egyes elemek tartalmazz·k a ritkas·got
+| - Kulim√°k ritkas√°gi rendszer tervez√©se
+|   - Ritkas√°gi szintek megnevez√©se
+|   - Sz√≠nek kiv√°laszt√°sa
+|   - Figma tervek m√≥dos√≠t√°sa, hogy egyes elemek tartalmazz√°k a ritkas√°got
 
-(Zsofi) - Hi·nyzik
+(Zsofi) - Hi√°nyzik :(
 
 (Kernel)
-| - Jira managelÈs
-| - Figma aloldalak strukt˙r·j·nak javÌt·sa (fıoldal, a gomb)
+| - Jira managel√©s
+| - Figma aloldalak strukt√∫r√°j√°nak jav√≠t√°sa (f≈ëoldal, a gomb)
 
 
+[2022.12.12]
+
+(Kuli)
+| - Flexbox gyakorl√°sa flexbox froggyval
+| - Figma tervek folytat√°sa
+
+(Zs√≥fi)
+| - Jira backlog b≈ëv√≠t√©se
+| - Sprint tervez√©se √©s ind√≠t√°sa
+
+(Kernel)
+| - Tervez√©s log folytat√°sa
+| - Projektstrkt√∫ra megtervez√©se Zs√≥fival
+| - Figma tervek rendez√©se
+
+
+[2022.12.15]
+
+(Kuli)
+
+(Zs√≥fi)
+
+(Kernel)
