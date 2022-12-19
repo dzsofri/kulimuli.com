@@ -1,0 +1,15 @@
+fõoldal
+rövid ismertetõ:
+
+Kulimákok ezrei várják, hogy örökbefogadják õket, FOGADJ EGYET ÖRÖKBE MÉG MA!!
+Ezen az oldalon kisbarátokat tudsz örökbe fogadni.
+Lejjebb görgetve megtalálhatja ennek a folyamatnak a menetét.
+Ha esetleg valamiben megakadna akkor hívja az ügyfélszolgálatunkat!
+
+Rólunk oldal
+Az oldal célja:
+
+A célunk egy jobb élet teremtése a család nélküli Kulimákok számára!
+A sikeres organizáció elengedhetetlen volt az oldal sikeres létrehozásához.
+A csoportunk igénybe vette a Github<link>, a Jira<link> és a Figma<link> szolgáltatások elõnyeit.
+
