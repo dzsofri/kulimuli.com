@@ -9,7 +9,7 @@ Ha esetleg valamiben megakadna akkor hívja az ügyfélszolgálatunkat!
 Rólunk oldal
 Az oldal célja:
 
-Az oldal fõ célja egy jobb élet teremtése a család nélküli Kulimákok számára!
+A célunk egy jobb élet teremtése a család nélküli Kulimákok számára!
 A sikeres organizáció elengedhetetlen volt az oldal sikeres létrehozásához.
 A csoportunk igénybe vette a Github<link>, a Jira<link> és a Figma<link> szolgáltatások elõnyeit.
 
