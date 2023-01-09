@@ -1,5 +1,4 @@
 Fortnite player Kulimák			9 éves		hím	
-Kulimák "Tarr"				10 éves		nõstény
 Kulimák Kernel				17 éves		hím
 Sütõs Kulimák				30 éves		hím
 Teslat vezetõ Kulimák			21 éves 	hím
@@ -8,7 +7,6 @@ Napocska Kulimák			100 éves	nõstény
 Fiatal Kulimák				5 éves		hím
 Pankix Kulimák				45 éves		hím
 Youtuber Kulimák			35 éves		hím
-Tarr barátnõje Kulimák			12 éves		nõstény
 Flexbox Froggyzó Kulimák		17 éves		hím
 Német Kulimák				80 éves		nõstény
 Erõs Kulimák				24 éves		hím
