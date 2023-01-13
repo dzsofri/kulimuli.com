@@ -6,6 +6,18 @@
     font-family: 'Inter', sans-serif;
 }
 
+@media screen and (max-width: 740px) {
+    #kosar_icon {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 741px) {
+    #kosar_link {
+        display: none;
+    }
+}
+
 nav {
     width: 100vw;
     height: 4rem;
@@ -16,20 +28,28 @@ nav {
     align-items: center;
     background-color: #FCFCFC;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-    gap: 1rem;
+    gap: 3rem;
 }
 
 nav > *:first-child {
     justify-self: flex-start;
     margin-right: auto;
+}
+
+nav > *:first-child img {
     height: 3rem;
     border-radius: 100%;
 }
 
-nav > a {
-    
+nav > a:not(:last-child):not(:first-child) {
+    background-color: #FFB562;
+    padding: .3rem 1rem .3rem 1rem;
+    border-radius: 100px;
+    color: #FCFCFC;
+    text-decoration: none;
 }
 
 nav > *:last-child {
+    margin-left: auto;
     font-size: 42px;
 }
