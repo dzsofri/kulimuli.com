@@ -7,37 +7,104 @@
     justify-content: center;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
-    font-size:5vw;
+    font-size:3vw;
+    
 }
 
 .demonstration{
-    width: 45%;
-    padding: 4% 3% 4%;
+    width: 30%;
+    padding: 4% 2% 4%;
     margin-bottom: 2%;
     display: flex;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
-    font-size:1.5vw;
+    font-size:1vw;
     text-align: justify;
     background-color: #FFB562;
-    border-radius: 10px;
+    border-radius: 50px;
     box-shadow: 7px 7px 6px 0px rgba(0,0,0,0.32);
 }
 
 .video{
-    width: 45%;
-    height: 100px;
+    width: 40%;
+    padding: 10% 0% 10%;
     text-align: justify;
     background-color: #FFF;
-    border-radius: 10px;
+    border-radius: 70px;
     box-shadow: 7px 7px 6px 0px rgba(0,0,0,0.32);
     display:flex;
+    align-self:flex-end;
+    margin-left: 25%;
+    margin-top: 15%;
     
 }
 
 .ismerteto{
-    display: flex;
-    flex-direction:row;
-    justify-content:space-between;
+  display: flex;
+  align-items: flex-start;
+  margin: 5% 10% 5%;
     
 }
+.team{
+
+  display: flex;
+  align-items:center;
+  margin: 5% 15% 5%;
+  justify-content: space-between;}
+
+.kulimak, .kernel, .zsofi{
+    width: 25%;
+    padding: 2% 1% 7%;
+    margin-bottom: 2%;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size:1vw;
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    box-shadow: 7px 7px 6px 0px rgba(0,0,0,0.32);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.team img {
+        border-radius: 50%;
+        width: 50%;
+        display: flex;
+        align-self: center;
+        margin-bottom: 20%;
+}
+
+.role, .email{
+    padding-bottom: 5%;
+}
+
+.donate{
+    display: flex;
+      align-items:center;
+      margin: 5% 15% 5%;
+      padding:5%;
+      font-family: 'Inter', sans-serif;
+      font-weight: bold;
+      font-size:1.2vw;
+      background-color: #3AB0FF;;
+      border-radius: 50px;
+      justify-content: space-between;}
+    
+    .targy, .v-bucks, .szamla{
+        width: 22%;
+        padding: 3% 1% 3%;
+        margin: 2% 0% 2%;
+        display: flex;
+        background-color: #FFF;
+        border-radius: 70px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        box-shadow: 7px 7px 6px 0px rgba(0,0,0,0.32);
+    }
