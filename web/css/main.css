@@ -47,6 +47,12 @@ nav > a:not(:last-child):not(:first-child) {
     border-radius: 100px;
     color: #FCFCFC;
     text-decoration: none;
+    transition: padding .3s;
+}
+
+nav > a:not(:last-child):not(:first-child):hover {
+    padding: .3rem 1.5rem .3rem 1.5rem;
+    transition: padding .3s;
 }
 
 nav > *:last-child {
