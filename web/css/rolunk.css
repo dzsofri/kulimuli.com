@@ -12,13 +12,13 @@
 }
 
 .demonstration{
-    width: 30%;
+    width: 40%;
     padding: 4% 2% 4%;
     margin-bottom: 2%;
     display: flex;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
-    font-size:1vw;
+    font-size:1.5vw;
     text-align: justify;
     background-color: #FFB562;
     border-radius: 50px;
@@ -107,4 +107,39 @@
         text-align: center;
         justify-content: center;
         box-shadow: 7px 7px 6px 0px rgba(0,0,0,0.32);
+    }
+
+    @media only screen and (max-width: 600px)  {
+        .team{
+            flex-direction: column;
+        }
+        .kulimak, .kernel, .zsofi{
+            border-radius: 25px;
+            width:40%;
+            height: auto;
+            font-size:2vw;
+        }
+        .us{
+            font-size: 5vw;
+        }
+
+        .kernel, .zsofi{
+            margin-top: 2vw;
+        }
+        .demonstration{
+            margin: 0;
+            align-self:center ;
+            font-size: 2.5vw;
+            border-radius: 25px;
+            width: 60%;
+            padding: 4% 8% 4%;
+        }
+        .video{
+            margin: 3vw;
+            align-self:center ;
+            border-radius: 25px;
+        }
+        .ismerteto{
+            flex-direction: column;
+        }
     }
