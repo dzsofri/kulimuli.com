@@ -16,11 +16,14 @@ body {
 
 .gomb button{
     background-color: #FFB562;
-    width: 150px;
-    height: 60px;
+    width: 180px;
+    height: 70px;
     text-align: center;
     font-size: large;
+    border: #FFB562;
+    border-radius: 15px;
 }
 .gomb{
     align-self: center;
+
 }
