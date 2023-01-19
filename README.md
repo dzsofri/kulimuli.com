@@ -11,3 +11,4 @@
 - `git pull`: Felhőbeli commitok letöltése a lokális git repoba.
 - `git push`: Lokális commitok feltöltése a felhőbe (jelen esetben Github).
 - `git fetch`: Lokális repo szinkronizálása a felhőbeli repoval.
+- `git switch -c <branch neve>`: Uj branch letrehozasa es valtas arra 
