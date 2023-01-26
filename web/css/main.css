@@ -59,3 +59,7 @@ nav > *:last-child {
     margin-left: auto;
     font-size: 42px;
 }
+
+hr {
+    border: 1px black solid;
+}
