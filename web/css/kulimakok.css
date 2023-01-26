@@ -1,0 +1,43 @@
+body {
+    padding: 10px;
+    margin: 10px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.kulimakok{
+    background-color: #FFB562;
+    border-radius: 10px;
+    padding: 1rem;
+
+}
+
+.kuli-card-big {
+    position: relative;
+}
+
+.leiras{
+    background-color: #F9F2ED;
+    padding: 150px;
+    border-radius: 25px;
+}
+
+.kulimakok button{
+    background-color: #F87474;
+    border: #F87474;
+    border-radius: 1000px;
+    color: white;
+    padding: .3rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.bold{
+    font-size: larger;
+    font-weight: bolder;
+}
