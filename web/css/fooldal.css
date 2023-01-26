@@ -1,0 +1,85 @@
+.hero {
+    background-image: url('../assets/hero_image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 15rem;
+    display: flex;
+    padding: 3rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hero .ismerteto {
+    background-color: rgba(0, 0, 0, .5);
+    width: 50%;
+    padding: 1.5rem;
+    height: fit-content;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 15px;
+}
+
+.terkep {
+    padding: 5rem;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.terkep img {
+    width: 100%;
+}
+
+.biztatas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.biztatas h1 {
+    color: #3AB0FF;
+}
+
+.ajanlat-wrapper {
+    padding: 5rem;
+}
+
+.ajanlat {
+    padding: 2rem;
+    background-color: #FFB562;
+    border-radius: 10px;
+    filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+    display: flex;
+    flex-direction: column;
+}
+
+.ajanlat h1 {
+    color: white;
+}
+
+.ajanlat .cardok {
+    display: flex;
+    gap: 1rem;
+}
+
+.kuli-card {
+    background-color: #F9F2ED;
+    border-radius: 15px;
+}
+
+.kuli-card .tulajdonsagok {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kuli-card .tulajdonsagok span:nth-child(odd) {
+    font-weight: bold;
+}
+
+.kuli-card .tulajdonsagok span:nth-child(even) {
+    align-self: flex-end;
+    margin-left: auto;
+}
+
