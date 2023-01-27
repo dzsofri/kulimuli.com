@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+@media screen and (max-width: 740px) {
+    #kosar_icon {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 741px) {
+    #kosar_link {
+        display: none;
+    }
+}
+
+nav {
+    width: 100vw;
+    height: 4rem;
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: #FCFCFC;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    gap: 3rem;
+}
+
+nav > *:first-child {
+    justify-self: flex-start;
+    margin-right: auto;
+}
+
+nav > *:first-child img {
+    height: 3rem;
+    border-radius: 100%;
+}
+
+nav > a:not(:last-child):not(:first-child) {
+    background-color: #FFB562;
+    padding: .3rem 1rem .3rem 1rem;
+    border-radius: 100px;
+    color: #FCFCFC;
+    text-decoration: none;
+    transition: padding .3s;
+}
+
+nav > a:not(:last-child):not(:first-child):hover {
+    padding: .3rem 1.5rem .3rem 1.5rem;
+    transition: padding .3s;
+}
+
+nav > *:last-child {
+    margin-left: auto;
+    font-size: 42px;
+}
+
+hr {
+    border: 1px black solid;
+}
