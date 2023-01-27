@@ -63,3 +63,17 @@ nav > *:last-child {
 hr {
     border: 1px black solid;
 }
+
+footer {
+    background-color: #D9D9D9;
+    padding: 2.5rem;
+}
+
+footer .brand {
+    
+}
+
+footer .brand img {
+    width: 5rem;
+    border-radius: 100%;
+}
