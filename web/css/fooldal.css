@@ -11,6 +11,20 @@
     justify-content: flex-end;
 }
 
+/* Ha 800px alatt van az oldal */
+@media screen and (max-width: 800px) {
+    .ajanlat .kuli-card:last-child {
+        display: none;
+    }
+}
+
+/* Ha 800px alatt van  az oldal */
+@media screen and (max-width: 600px) {
+    .ajanlat .kuli-card:first-child {
+        display: none;
+    }
+}
+
 .hero .ismerteto {
     background-color: rgba(0, 0, 0, .5);
     width: 50%;
@@ -57,6 +71,7 @@
 
 .ajanlat h1 {
     color: white;
+    margin-bottom: 1rem;
 }
 
 .ajanlat .cardok {
@@ -65,8 +80,31 @@
 }
 
 .kuli-card {
+    display: flex;
+    flex-direction: column;
     background-color: #F9F2ED;
     border-radius: 15px;
+    flex: 1 1 0px;
+}
+
+.kuli-card .kep {
+    content: "";
+    position: relative;
+    display: block;
+    min-width: 100px;
+    height: 150px;
+    background-color: #3AB0FF;
+    background-image: url('../assets/henrykettner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 1rem;
+}
+
+.kuli-card .fajta {
+    padding: 0 0 0 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .kuli-card .tulajdonsagok {
@@ -74,12 +112,37 @@
     flex-wrap: wrap;
 }
 
+.kuli-card hr {
+    margin: 1rem;
+}
+
+.kuli-card .tulajdonsagok span {
+    /* flex-basis */
+    flex: 0 0 50%;
+    box-sizing: border-box;
+}
+
 .kuli-card .tulajdonsagok span:nth-child(odd) {
+    /* padding bal oldalra */
+    padding: 0 0 0 1rem;
     font-weight: bold;
 }
 
 .kuli-card .tulajdonsagok span:nth-child(even) {
-    align-self: flex-end;
-    margin-left: auto;
+    /* padding jobb oldalra */
+    padding: 0 1rem 0 0;
+    text-align: end;
 }
 
+.kuli-card button {
+    background-color: #f87474;
+    color: white;
+    border: none;
+    padding: .2rem .5rem .2rem .5rem;
+    border-radius: 100px;
+    align-self: center;
+    justify-self: center;
+
+    /* fent meg lent 1rem, bal-jobbra pedig automatikus margin */
+    margin: 1rem auto;
+}
