@@ -5,66 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kulimákok</title>
+    <link rel="stylesheet" href="./css/kulimakok.css">
 </head>
 <body>
-    <nav></nav>
+
     <div class="page_wrapper">
         <div class="kuli_filter">
             <h1>Kulifilter</h1>
             <div class="fajta_wrapper">
                 <span>Fajta:</span>
+                &#160;
                 <input type="text" name="Fajta" id="ul_fajta">
             </div>
+            <br>
             <div class="nem_wrapper">
                 <span>Nem:</span>
+                &#160;
                 <input type="radio" name="nem" id="him">
                 <label for="him">Hím</label>
 
                 <input type="radio" name="nem" id="nosteny">
                 <label for="nosteny">Nőstény</label>
             </div>
+            <br>
             <div class="kor_wrapper">
                 <span>Kor:</span>
+                &#160;
                 <span>slider</span>
                 <span>{a}-{b}</span>
             </div>
         </div>
         <div class="kulimakok">
-            <div>
+            <div class="kuli-card-big">
                 <img src="" alt="">
                 <div class="leiras">
-                    <h2>Fajta</h2>
+                    <h2>{fajta}</h2>
+                    <hr>
+                    <br>
                     <span>
-                        <span>Kor:</span>
+                        <span class="bold">Kor:</span>
                         <span>{kor}</span>
                     </span>
+                    <br>
                     <span>
-                        <span>Nem:</span>
+                        <span class="bold">Nem:</span>
                         <span>{nem}</span>
                     </span>
+                    <br>
                     <span>
-                        <span>Ritkaság:</span>
+                        <span class="bold">Ritkaság:</span>
                         <span>{ritkasag}</span>
                     </span>
+                    <br>
                     <button>Örökbefogadom</button>
                 </div>
             </div>
-            <div>
+            <div class="kuli-card-big">
                 <img src="" alt="">
                 <div class="leiras">
-                    <h2>Fajta</h2>
+                    <h2>{fajta}</h2>
+                    <hr>
+                    <br>
                     <span>
-                        <span>Kor:</span>
+                        <span class="bold">Kor:</span>
                         <span>{kor}</span>
                     </span>
+                    <br>
                     <span>
-                        <span>Nem:</span>
+                        <span class="bold">Nem:</span>
                         <span>{nem}</span>
                     </span>
+                    <br>
                     <span>
-                        <span>Ritkaság:</span>
+                        <span class="bold">Ritkaság:</span>
                         <span>{ritkasag}</span>
                     </span>
+                    <br>
                     <button>Örökbefogadom</button>
                 </div>
             </div>
