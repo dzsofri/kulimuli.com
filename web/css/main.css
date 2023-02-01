@@ -70,7 +70,28 @@ footer {
 }
 
 footer .brand {
-    
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer .links {
+    margin-top: 1rem;
+    display: flex;
+}
+
+footer .links .documents {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .links .documents > * {
+    color: black;
+    text-decoration: none;
 }
 
 footer .brand img {
