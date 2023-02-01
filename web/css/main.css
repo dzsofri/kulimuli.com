@@ -85,8 +85,17 @@ footer .links {
 }
 
 footer .links .documents {
+    width: max-content;
     display: flex;
     flex-direction: column;
+    gap: .5rem;
+}
+
+footer .links .socials {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 footer .links .documents > * {
