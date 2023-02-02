@@ -63,3 +63,47 @@ nav > *:last-child {
 hr {
     border: 1px black solid;
 }
+
+footer {
+    background-color: #D9D9D9;
+    padding: 2.5rem;
+}
+
+footer .brand {
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer .links {
+    margin-top: 1rem;
+    display: flex;
+}
+
+footer .links .documents {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+footer .links .socials {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer .links .documents > * {
+    color: black;
+    text-decoration: none;
+}
+
+footer .brand img {
+    width: 5rem;
+    border-radius: 100%;
+}
