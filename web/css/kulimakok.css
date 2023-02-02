@@ -51,6 +51,7 @@ body {
 
 #ul_fajta{
     width: 500px;
+    padding: 10px;
     background-color: #D9D9D9;
-    
+    border: none;
 }
