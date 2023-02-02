@@ -9,6 +9,15 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
+<script defer>
+    let nyomogatasok = 0;
+
+    function gombClick() {
+        const gombEl = document.getElementById('gombcucc');
+        nyomogatasok++;
+        gombEl.innerHTML = `Ennyiszer nyomtad meg A Gombot: ${nyomogatasok}`;
+    }
+</script>
 <body>
     <nav>
         <a href="./index.html"><img src="./assets/logo.png" alt=""></a>
@@ -22,19 +31,39 @@
         </span>
     </nav>
 
-    <div class="video">
-        <video controls>
-            <source src="./assets/video.mp4" type="video/mp4">
-    </div>
+    <div class="content">
+        <span id="gombcucc">Ennyiszer nyomtad meg A Gombot: 0</span>
 
-    <div class="gomb">
-        <button type="button">A gomb</button>
+        <div class="video">
+            <video controls source src="./assets/video.mp4" type="video/mp4">
+        </div>
+    
+        <button type="button" onclick="gombClick()">A gomb</button>
     </div>
 
     <footer>
-        <p>menu kicsiben</p>
-        <p>Kontakt</p>
-        <p>Partnerek</p> 
-     </footer>
+        <span class="brand">
+            <img src="./assets/logo.png" alt="">
+            <span class="name">kulimuli.com</span>
+        </span>
+        <hr>
+        <div class="links">
+            <div class="documents">
+                <!-- Links -->
+                <a href="">Általános Szerződési Feltételek (ÁSZF)</a>
+                <a href="">GYIK</a>
+                <a href="">Adatvédelmi nyilatkozat</a>
+                <a href="">Cookiek-re vonatkozó szabályok</a>
+            </div>
+            <div class="socials">
+                <!-- Socials -->
+                <a href=""><img src="assets/facebook.png"></a>
+                <a href=""><img src="assets/instagram.png"></a>
+                <a href=""><img src="assets/youtube.png"></a>
+                <a href=""><img src="assets/tiktok.png"></a>
+                <a href=""><img src="assets/twitter.png"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
