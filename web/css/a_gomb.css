@@ -1,28 +1,46 @@
-body {
-    padding: 10px;
-    margin: 10px;
-    width: 100vw;
-    height: 100vh;
+.content {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    gap: 1rem;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    align-items: center;
 }
 
-.video{
-   align-self: center;
+video {
+    width: 100vw;
 }
 
-.gomb button{
+.content button{
     background-color: #FFB562;
-    width: 180px;
-    height: 70px;
+    width: 30vw;
+    height: 100px;
     text-align: center;
     font-size: large;
     border: #FFB562;
     border-radius: 15px;
+    transition: .2s;
+    filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1))
 }
 
-.gomb{
-    align-self: center;
+.content button:hover {
+    filter: brightness(.95);
+    transform: scale(.95);
+    transition: .2s;
+    cursor: pointer;
+    filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));;
+}
+
+footer {
+    width: 100%;
+}
+
+.gombdisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gombcucc {
+    font-weight: 600;
+    font-size: 36px;
 }
