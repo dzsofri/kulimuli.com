@@ -15,7 +15,7 @@
     function gombClick() {
         const gombEl = document.getElementById('gombcucc');
         nyomogatasok++;
-        gombEl.innerHTML = `Ennyiszer nyomtad meg A Gombot: ${nyomogatasok}`;
+        gombEl.innerHTML = nyomogatasok;
     }
 </script>
 <body>
@@ -32,7 +32,10 @@
     </nav>
 
     <div class="content">
-        <span id="gombcucc">Ennyiszer nyomtad meg A Gombot: 0</span>
+        <div class="gombdisplay">
+            <span>Ennyiszer nyomtad meg A Gombot:</span>
+            <span id="gombcucc">0</span>
+        </div>
 
         <div class="video">
             <video controls source src="./assets/video.mp4" type="video/mp4">
