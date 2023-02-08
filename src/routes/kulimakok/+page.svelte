@@ -27,7 +27,7 @@
                 kepId={kulik.findIndex(x => x.nev == kuli.nev) + 1}
                 nev={kuli.nev}
                 kor={kuli.kor}
-                nem={kuli.nem} />
+                nem={kuli.nem == "him" ? "hím" : "nőstény"} />
         {/each}
     </div>
 </main>

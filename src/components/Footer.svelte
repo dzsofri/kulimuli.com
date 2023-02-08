@@ -24,6 +24,16 @@
 </footer>
 
 <style lang="scss">
+    @media screen and (max-width: 650px) {
+        footer .links .socials {
+            flex-wrap: wrap;
+
+            img {
+                width: 60%;
+            }
+        }
+    }
+
     footer {
         background-color: #D9D9D9;
         padding: 2.5rem;

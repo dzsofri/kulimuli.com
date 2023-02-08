@@ -22,7 +22,7 @@
 			<h1>Ajánlat</h1>
 			<div class="cardok">
 				<div class="kuli-card">
-					<span class="kep" />
+					<span class="kep" style="background-image: url(./kulimakok/4);"/>
 					<span class="fajta">Bilihajú Kulimák</span>
 					<hr />
 					<div class="tulajdonsagok">
@@ -32,37 +32,33 @@
 						<span>hím</span>
 					</div>
 
-					<button>Örökbefogadom</button>
+					<button on:click={orokbefogadas}>Örökbefogadom</button>
 				</div>
 				<div class="kuli-card">
-					<span class="kep" />
-					<span class="fajta">Fajta</span>
+					<span class="kep" style="background-image: url(./kulimakok/17);"/>
+					<span class="fajta">Kulimák aki a minecraftban ragadt</span>
 					<hr />
 					<div class="tulajdonsagok">
 						<span>Kor:</span>
-						<span>12</span>
+						<span>1</span>
 						<span>Nem:</span>
-						<span>de</span>
-						<span>Ritkaság:</span>
-						<span>ja</span>
+						<span>hím</span>
 					</div>
 
-					<button>Örökbefogadom</button>
+					<button on:click={orokbefogadas}>Örökbefogadom</button>
 				</div>
 				<div class="kuli-card">
-					<span class="kep" />
-					<span class="fajta">Kulimak 3</span>
+					<span class="kep" style="background-image: url(./kulimakok/18);"/>
+					<span class="fajta">Kulimak es a kinai</span>
 					<hr />
 					<div class="tulajdonsagok">
 						<span>Kor:</span>
-						<span>12</span>
+						<span>17</span>
 						<span>Nem:</span>
-						<span>de</span>
-						<span>Ritkaság:</span>
-						<span>Legendas</span>
+						<span>hím</span>
 					</div>
 
-					<button>Örökbefogadom</button>
+					<button on:click={orokbefogadas}>Örökbefogadom</button>
 				</div>
 			</div>
 		</div>
@@ -167,11 +163,12 @@
 			position: relative;
 			display: block;
 			min-width: 100px;
-			height: 150px;
-			background-color: #3ab0ff;
+			height: 350px;
+			// background-color: #;
 			background-image: url('./henrykettner.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
+            background-position: center;
 			border-radius: 15px 15px 0 0;
 			margin-bottom: 1rem;
 		}
@@ -184,6 +181,7 @@
 			border-radius: 100px;
 			align-self: center;
 			justify-self: center;
+            cursor: pointer;
 
 			/* fent meg lent 1rem, bal-jobbra pedig automatikus margin */
 			margin: 1rem auto;
@@ -249,3 +247,9 @@
 		}
 	}
 </style>
+
+<script lang="ts">
+    function orokbefogadas() {
+        alert("Örökbefogadva! A kiszállítást hamarosan megkezdjük.");
+    }
+</script>
