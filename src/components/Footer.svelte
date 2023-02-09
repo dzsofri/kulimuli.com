@@ -25,6 +25,14 @@
 
 <style lang="scss">
     @media screen and (max-width: 650px) {
+        footer .brand {
+            justify-content: center;
+        }
+
+        footer .brand .name {
+            font-size: 1.5rem;
+        }
+
         footer .links .socials {
             flex-wrap: wrap;
 
@@ -43,6 +51,7 @@
             font-weight: bold;
             font-size: 2rem;
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
             gap: 1rem;
             margin-bottom: 1rem;
