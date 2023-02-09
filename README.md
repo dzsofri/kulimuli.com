@@ -1,5 +1,6 @@
 # kulimuli.com
 
+- [A weboldalunk](kulimuli.com)
 - [Jira projekt](https://bzsofi.atlassian.net/jira/software/projects/KUL/boards/5/roadmap)
 - [Figma tervek](https://www.figma.com/file/7y4K2o47A2lNCekr7d8j88/projekt-tervez%C3%A9se)
 
