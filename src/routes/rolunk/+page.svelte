@@ -7,7 +7,9 @@
 				elengedhetetlen volt az oldal sikeres létrehozásához. A csoportunk igénybe vette a Github<link
 				/>, a Jira<link /> és a Figma<link /> szolgáltatások előnyeit.
 			</div>
-			<div class="video" />
+			<div class="video">
+                <video src="./organizacionkrol.mp4" controls />
+            </div>
 		</div>
 	</div>
 
@@ -99,6 +101,10 @@
 		margin-left: 25%;
 		margin-top: 15%;
 	}
+
+    .video video {
+        width: 100%;
+    }
 
 	.ismerteto {
 		display: flex;

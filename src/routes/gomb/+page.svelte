@@ -6,7 +6,7 @@
 
     <div class="video">
         <!-- svelte-ignore a11y-media-has-caption -->
-        <video controls src="./video.mp4">
+        <video controls src="./kuli_kattint.mp4">
     </div>
 
     <button type="button" on:click={gombClick}>A gomb</button>
